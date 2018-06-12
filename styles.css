@@ -1,0 +1,71 @@
+body{
+    margin :0;
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-image: url('https://previews.123rf.com/images/praewpailin/praewpailin1606/praewpailin160600022/60968142-football-field-or-soccer-field-pattern-and-texture-abstract-soccer-field-or-football-field-backgroun.jpg')
+}
+.bruna{
+    margin: 0 auto;
+    width: 100px;
+    align-content: flex-start;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: beige;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.campo{
+    height: 100%;
+    width: 100%;   
+}
+.neymar{
+    width: 300px;   
+    animation: movney 4s forwards;
+}
+.trofeu{
+    animation: movtrof 4s forwards;
+}
+@keyframes movtrof{
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: translateX(0px) translateY(450px);
+    }
+    50%{
+        transform: translateX(0px) translateY(100px);
+    }
+    75%{
+        transform: translateX(0px) translateY(200px);
+    }
+    100%{
+        transform: translateX(200px) translateY(200px);
+    }
+}
+
+@keyframes movney{
+0%{
+    transform: translateX(700px) translateY(0px);
+}
+25%{
+    transform: translateX(0px) translateY(200px);
+}
+50%{
+    transform: translateX(600px) translateY(200px);
+}
+75%{
+    transform: translateX(0px) translateY(0px);
+}
+100%{
+    transform: translateX(500px) translateY(200px);
+
+}
+
+
+
+
+
+
+
